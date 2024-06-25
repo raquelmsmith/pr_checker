@@ -2,7 +2,7 @@ Contributors: @zlwaterfield, @raquelmsmith
 
 # PR Checker
 
-`pr-checker` is a CLI tool to check the status of pull requests on GitHub for a specified user or team. It supports initializing configuration, updating specific configuration parts, and checking the status of PRs.
+`pr-checker` is a CLI tool to check the status of pull requests on GitHub for a specified user or team. It's great for seeing what work was completed in the last 7 days (or custom time window), and what work remains open.
 
 ## Features
 
@@ -41,25 +41,25 @@ You can update specific parts of the configuration as needed.
 #### Update GitHub Token
 
 ```sh
-pr-checker --update --set-token NEW_TOKEN
+pr-checker --update-config --set-token NEW_TOKEN
 ```
 
 #### Update GitHub username
 
 ```sh
-pr-checker --update --set-username NEW_USERNAME
+pr-checker --update-config --set-username NEW_USERNAME
 ```
 
 #### Update Team Usernames
 
 ```sh
-pr-checker --update --set-team "user1,user2"
+pr-checker --update-config --set-team "user1,user2"
 ```
 
 #### Update repositories
 
 ```sh
-pr-checker --update --set-repos "Org1/repo1, Org2/repo2"
+pr-checker --update-config --set-repos "Org1/repo1, Org2/repo2"
 ```
 
 ### Check Pull Requests
@@ -89,7 +89,7 @@ pr-checker --who team
 ### Arguments
 
 - `--init`: Initialize the configuration.
-- `--update`: Update the configuration.
+- `--update-config`: Update the configuration.
   - `--set-username`: Set the GitHub username.
   - `--set-token`: Set the GitHub token.
   - `--set-team`: Set the team usernames (comma-separated).
