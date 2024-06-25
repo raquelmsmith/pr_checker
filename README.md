@@ -59,7 +59,7 @@ pr-checker --update --set-team "user1,user2"
 #### Update repositories
 
 ```sh
-pr-checker --update --set-repos "Repo1/repo1, Repo2/repo2"
+pr-checker --update --set-repos "Org1/repo1, Org2/repo2"
 ```
 
 ### Check Pull Requests
