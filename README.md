@@ -16,6 +16,10 @@ Install the package using `pip`:
 pip install pr-checker
 ```
 
+## Prerequisites
+
+You'll need to create a personal access token for Github. Visit the [Fine-grained personal access tokens](https://github.com/settings/tokens?type=beta) page in your GitHub settings. Create a token with `read` access to all the repositories you are wanting to check.
+
 ## Usage
 
 ### Initialize Configuration
