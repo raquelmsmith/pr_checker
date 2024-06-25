@@ -48,7 +48,7 @@ def init_config():
     config["token"] = input("Enter your GitHub token: ")
     team_usernames = input("Enter your team usernames (comma-separated): ")
     config["team_usernames"] = [username.strip() for username in team_usernames.split(",")]
-    repos = input("Enter the repositories you want to check (comma-separated): ")
+    repos = input("Enter the repositories you want to check (comma-separated, eg PostHog/posthog): ")
     config["repos"] = [repo.strip() for repo in repos.split(",")]
 
     save_config(config)
