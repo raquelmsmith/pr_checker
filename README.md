@@ -1,3 +1,5 @@
+Contributors: @zlwaterfield, @raquelmsmith
+
 # PR Checker
 
 `pr-checker` is a CLI tool to check the status of pull requests on GitHub for a specified user or team. It supports initializing configuration, updating specific configuration parts, and checking the status of PRs.
