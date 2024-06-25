@@ -13,11 +13,11 @@ setup(
         ],
     },
     author='Raquel M Smith',
-    author_email='your.email@example.com',
+    author_email='hello@raquelmsmith.com',
     description='A simple CLI tool to check PR statuses on GitHub',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/raquelmsmith',
+    url='https://github.com/raquelmsmith/pr_checker',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
